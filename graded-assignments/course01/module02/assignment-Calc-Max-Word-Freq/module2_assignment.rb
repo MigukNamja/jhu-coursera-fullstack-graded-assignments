@@ -98,6 +98,7 @@ class Solution
   #Implement the print_highest_word_frequency_across_lines() method to
   #* print the values of objects in highest_count_words_across_lines in the specified format
   def print_highest_word_frequency_across_lines
-    @highest_count_words_across_lines.each { |word| puts word }
+    puts @highest_count_across_lines
+    puts @highest_count_words_across_lines.map(&:highest_wf_words)
   end
 end
